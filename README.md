@@ -37,3 +37,6 @@
   - git init
 - 파일 추가
   - git add .
+- 수정 내용 커밋 하기
+  - git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성"
+- gitHub repository에 최초 업로드
