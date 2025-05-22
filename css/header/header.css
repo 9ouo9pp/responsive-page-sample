@@ -4,7 +4,7 @@
   top: 0;
   width: 400px;
   height: 100%;
-  background: linear-gradient(to top, #333, #eee);
+  background: linear-gradient(to top, #fdc9ee, #eee);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,6 +17,9 @@
   font-size: 3.5rem;
   text-align: center;
   color: #fff;
+  font-family: "Sunflower", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .header h1::before {
   content: "WEBDESIGN";
@@ -29,6 +32,9 @@
   text-align: left;
   letter-spacing: 4px;
   opacity: 0.8;
+  font-family: "Sunflower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .header h1::after {
   content: "";
@@ -49,6 +55,9 @@
   font-size: 1.2rem;
   color: #fff;
   opacity: 0.8;
+  font-family: "Sunflower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .header ul li a::after {
   content: "";
