@@ -54,16 +54,18 @@
 .section {
   position: relative;
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   transform: translate(0.1s);
 }
 .section article {
   position: relative;
+  width: 20%;
   padding: 10px;
 }
 .section article div {
   position: relative;
-  width: 15vw;
+  width: 100%;
   background-color: #fafafa;
   border-radius: 20px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
