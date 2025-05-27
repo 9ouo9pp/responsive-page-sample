@@ -20,7 +20,7 @@ sortingBtns.forEach((btn) => {
       filter: filter,
     });
 
-    //다 제거하고 클린한 것만 onclass추가
+    //다 제거하고 클릭한 것만 onclass추가
     sortingBtns.forEach((btnEl) => {
       btnEl.classList.remove("on");
     });
