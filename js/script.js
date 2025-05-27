@@ -28,3 +28,15 @@ sortingBtns.forEach((btn) => {
     e.currentTarget.classList.add("on");
   });
 });
+
+// modal
+const modal = document.querySelector("#modal");
+const modalClose = document.querySelector(".modal-close");
+
+window.addEventListener("load", () => {
+  modal.classList.add("active");
+});
+
+modalClose.addEventListener("click", () => {
+  modal.classList.remove("active");
+});
